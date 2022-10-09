@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    padding-left: 20rem;
+    padding-right: 20rem;
+}
+/* Top part before Our Menu heading from line 9 to 50 */
+.headCards{
+    font-family: 'Dancing Script', cursive;
+    display: flex;
+    line-height: 0.7;
+}
+.card1{
+    width: 50%;
+    color: white;
+    background-color: #202831;
+    display: flex ;
+    padding: 0.5rem;
+}
+.horiSpace{
+    width: 4%;
+}
+.image{
+    padding: 1rem;
+    border: none;
+}
+.card1 img{
+
+   border-radius: 50%;
+   width: 8rem;
+   height: 8rem;
+   border: 0.1cm solid #d18903;
+}
+.spec{
+   padding: 1rem;
+}
+.short{
+    font-size: 1.2rem;
+}
+.spec button{
+    font-size: 0.8rem;
+    font-family: 'Noto Sans JP', sans-serif;
+    border: none;
+    color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    background-color: #d18903;
+    border-radius: 2rem;
+}
+
+/* Our Menu Start from line 51 to */
+.menu_heading{
+    padding: 4rem 0 0 0 ;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    
+}
+.menu_option{
+    text-align: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.menu span{
+  
+  padding: 0.4rem 0.8rem 0.4rem 0.8rem;
+  color: black;
+  cursor: pointer;
+  margin: 0.5rem;
+  font-size: 1rem;
+}
+.active{
+
+    color: white !important;
+    background-color: #202831;
+    border-radius: 1.5rem;
+    
+}
+/* products box started */
+.img-box img{
+    width: 100%;
+    height: 11rem;
+    border-radius: 0 0 0 2rem;
+}
+.box{
+    overflow: hidden;
+    width: 17rem;
+    margin: 1rem ;
+    background-color: #202831;
+    color: white;
+    border-radius: 3%;
+}
+.box h5{
+    font-size: 1rem;
+}
+.box p{
+    font-size: 0.8rem;
+}
+.pro_detail{
+    padding: 1rem 0.5rem 0 1rem;
+}
+.pro_price{
+    padding: 0rem 1rem 1rem 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.pro_price button{
+    border: none;
+    background-color: #d18903;
+    color: white ;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}

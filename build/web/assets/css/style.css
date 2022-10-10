@@ -3,8 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 body{
     font-family: 'Noto Sans JP', sans-serif;
-    padding-left: 20rem;
-    padding-right: 20rem;
+    
 }
 /* Top part before Our Menu heading from line 9 to 50 */
 .headCards{
@@ -52,7 +51,7 @@ body{
     border-radius: 2rem;
 }
 
-/* Our Menu Start from line 51 to */
+/* Our Menu Start from line 51 to 80*/
 .menu_heading{
     padding: 4rem 0 0 0 ;
     font-family: 'Dancing Script', cursive;
@@ -78,9 +77,9 @@ body{
     color: white !important;
     background-color: #202831;
     border-radius: 1.5rem;
-    
-}
-/* products box started */
+    }
+
+/* products box started  82-117 */
 .img-box img{
     width: 100%;
     height: 11rem;
@@ -88,7 +87,7 @@ body{
 }
 .box{
     overflow: hidden;
-    width: 17rem;
+    width: 100%;
     margin: 1rem ;
     background-color: #202831;
     color: white;
@@ -116,3 +115,52 @@ body{
     height: 2rem;
     border-radius: 50%;
 }
+/* Responsive Design */
+@media screen and (max-width: 786px) {
+    body {
+      padding: 0;
+      margin: 0;
+    }
+   /* top banner started */
+   .headCards{
+    display: flow-root;
+}
+.spec{
+    padding: 0;
+ }
+ .spec h2{
+    font-size: 2rem;
+ }
+ .image img{
+    width: 6rem;
+    height: 6rem;
+    color: white;
+    background-color: #d18903;
+ }
+ /* top banner end */
+
+/* menu started */
+.menu_option{
+     
+    margin: 3rem 0 3rem 0;
+}
+
+ .menu span{
+    padding: 0.0rem 1rem;
+ }
+/* menu end */
+
+
+
+ /* product card started */
+    .card1{
+       
+        width: 100%;
+        margin: 0 0 1rem 0;
+    }
+    .box{
+        margin: 1rem 0;
+    }
+    /* Product card end */
+  
+  }

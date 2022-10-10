@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "cafe-070"
+  },
+  "targets": {
+    "cafe-070": {
+      "hosting": {
+        "fastfood": [
+          "fastfood-sajjad070"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
